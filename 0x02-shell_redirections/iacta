@@ -1,0 +1,5 @@
+While more is a handy command, it does come with a drawback. After closing a file, its contents stay written in the terminal window, filling it with text, forcing users to either clear the window or scroll back up to find something. It can also be slow, as it loads the entire file though displaying only one page at a time.
+
+That’s where the less command comes in handy. It’s very similar to more, but with the benefit of not keeping all the text in the terminal window. The less command also comes with a built-in search function, allowing you to highlight the parts of the file for which you are looking. To search with less, press the forward slash key followed by the text you want to search.
+
+The following is what the search function looks like if we search for /cpu in the cpuinfo file.

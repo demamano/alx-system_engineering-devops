@@ -1,0 +1,1 @@
+ -lR | grep ^d | wc -l
